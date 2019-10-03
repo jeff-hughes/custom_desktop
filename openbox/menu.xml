@@ -2,7 +2,7 @@
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
-<menu id="apps-accessories-menu" label="Accessories">
+<!--<menu id="apps-accessories-menu" label="Accessories">
   <item label="Calculator">
     <action name="Execute">
       <command>gnome-calculator</command>
@@ -27,10 +27,10 @@
       </startupnotify>
     </action>
   </item>
-</menu>
+</menu>-->
 
 <menu id="apps-editors-menu" label="Editors">
-  <item label="GVim">
+  <!--<item label="GVim">
     <action name="Execute">
       <command>gvim</command>
       <startupnotify>
@@ -45,14 +45,6 @@
       <startupnotify>
         <enabled>yes</enabled>
         <wmclass>Emacs</wmclass>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="GEdit">
-    <action name="Execute">
-      <command>gedit</command>
-      <startupnotify>
-        <enabled>yes</enabled>
       </startupnotify>
     </action>
   </item>
@@ -71,11 +63,27 @@
         <enabled>yes</enabled>
       </startupnotify>
     </action>
+  </item>-->
+  <item label="GEdit">
+    <action name="Execute">
+      <command>gedit</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="VS Code">
+    <action name="Execute">
+      <command>code</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
   </item>
 </menu>
 
 <menu id="apps-term-menu" label="Terminals">
-  <item label="Rxvt Unicode">
+  <!--<item label="Rxvt Unicode">
     <action name="Execute">
       <command>urxvt</command>
     </action>
@@ -103,9 +111,17 @@
         <enabled>yes</enabled>
       </startupnotify>
     </action>
-  </item>
+  </item>-->
   <item label="Xterm">
     <action name="Execute"><command>xterm</command></action>
+  </item>
+  <item label="Extraterm">
+    <action name="Execute">
+      <command>extraterm</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
   </item>
 </menu>
 
@@ -119,7 +135,7 @@
       </startupnotify>
     </action>
   </item>
-  <item label="Opera">
+  <!--<item label="Opera">
     <action name="Execute">
       <command>opera</command>
       <startupnotify>
@@ -167,10 +183,10 @@
         <enabled>yes</enabled>
       </startupnotify>
     </action>
-  </item>
+  </item>-->
 </menu>
 
-<menu id="apps-office-menu" label="Office">
+<!--<menu id="apps-office-menu" label="Office">
   <item label="OpenOffice Base">
     <action name="Execute">
       <command>ooffice -base</command>
@@ -206,10 +222,10 @@
       <command>ooffice -writer</command>
     </action>
   </item>
-</menu>
+</menu>-->
 
 <menu id="apps-multimedia-menu" label="Multimedia">
-  <item label="Amarok">
+  <!--<item label="Amarok">
     <action name="Execute">
       <command>amarok</command>
       <startupnotify>
@@ -249,13 +265,21 @@
         <enabled>yes</enabled>
       </startupnotify>
     </action>
+  </item>-->
+  <item label="VLC">
+    <action name="Execute">
+      <command>vlc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
   </item>
 </menu>
 
 <menu id="apps-fileman-menu" label="File Managers">
-  <item label="Nautilus">
+  <!--<item label="Nautilus">
     <action name="Execute">
-      <command>nautilus --no-desktop --browser</command>
+      <command>nautilus</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -293,10 +317,18 @@
         <enabled>yes</enabled>
       </startupnotify>
     </action>
+  </item>-->
+  <item label="Dolphin">
+    <action name="Execute">
+      <command>dolphin</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
   </item>
 </menu>
 
-<menu id="apps-graphics-menu" label="Graphics">
+<!--<menu id="apps-graphics-menu" label="Graphics">
   <item label="Gimp">
     <action name="Execute">
       <command>gimp</command>
@@ -329,7 +361,7 @@
       </startupnotify>
     </action>
   </item>
-</menu>
+</menu>-->
 
 <menu id="system-menu" label="System">
   <item label="Openbox Configuration Manager">
@@ -338,7 +370,7 @@
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
-  <item label="Gnome Control Center">
+  <!--<item label="Gnome Control Center">
     <action name="Execute">
       <command>gnome-control-center</command>
       <startupnotify><enabled>yes</enabled></startupnotify>
@@ -365,7 +397,7 @@
       </startupnotify>
     </action>
   </item>
-  <separator />
+  <separator />-->
   <item label="Reconfigure Openbox">
     <action name="Reconfigure" />
   </item>
@@ -373,11 +405,11 @@
 
 <menu id="root-menu" label="Openbox 3">
   <separator label="Applications" />
-  <menu id="apps-accessories-menu"/>
+  <!--<menu id="apps-accessories-menu"/>-->
   <menu id="apps-editors-menu"/>
-  <menu id="apps-graphics-menu"/>
+  <!--<menu id="apps-graphics-menu"/>-->
   <menu id="apps-net-menu"/>
-  <menu id="apps-office-menu"/>
+  <!--<menu id="apps-office-menu"/>-->
   <menu id="apps-multimedia-menu"/>
   <menu id="apps-term-menu"/>
   <menu id="apps-fileman-menu"/>

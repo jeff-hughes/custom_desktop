@@ -29,4 +29,5 @@ Package        | Purpose
 -------------- | -------
 code (VS Code) | Code editor
 [extraterm](https://extraterm.org/index.html) | Terminal emulator
+vlc            | Video player
 numlockx       | To turn on numlock by default
