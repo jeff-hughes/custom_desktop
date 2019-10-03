@@ -15,8 +15,18 @@ script to distribute the new files. Or don't. Whatever floats your boat.
 
 Package  | Purpose
 -------- | -------
-openbox  | window manager
-tint2    | dock
-dolphin  | file manager
-gedit    | text editor -- this will likely change
-numlockx | to turn on numlock by default
+openbox  | Window manager
+xcompmgr | Compositor for openbox
+tint2    | Dock
+dolphin  | File manager
+gedit    | Text editor -- this will likely change
+feh      | To manage desktop wallpaper
+variety  | Rotating desktop wallpaper
+
+## Other optional packages
+
+Package        | Purpose
+-------------- | -------
+code (VS Code) | Code editor
+[extraterm](https://extraterm.org/index.html) | Terminal emulator
+numlockx       | To turn on numlock by default
