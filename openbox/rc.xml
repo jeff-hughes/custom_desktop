@@ -301,14 +301,38 @@
     </action>
   </keybind>
 
+  <!-- Keybindings for snapping windows to border -->
+  <keybind key="W-Left">
+    <action name="UnmaximizeFull"/>
+    <action name="MaximizeVert"/>
+    <action name="MoveResizeTo">
+      <width>50%</width>
+    </action>
+    <action name="MoveToEdge"><direction>west</direction></action>
+  </keybind>
+  <keybind key="W-Right">
+    <action name="UnmaximizeFull"/>
+    <action name="MaximizeVert"/>
+    <action name="MoveResizeTo">
+      <width>50%</width>
+    </action>
+    <action name="MoveToEdge"><direction>east</direction></action>
+  </keybind>
+  <keybind key="W-Down">
+    <action name="Unmaximize"/>
+  </keybind>
+  <keybind key="W-Up">
+    <action name="Maximize"/>
+  </keybind>
+
   <!-- Keybindings for running applications -->
-  <keybind key="W-e">
+  <keybind key="W-t">
     <action name="Execute">
       <startupnotify>
         <enabled>true</enabled>
-        <name>Konqueror</name>
+        <name>extraterm</name>
       </startupnotify>
-      <command>kfmclient openProfile filemanagement</command>
+      <command>extraterm</command>
     </action>
   </keybind>
 </keyboard>
@@ -318,7 +342,7 @@
   <!-- number of pixels the mouse must move before a drag begins -->
   <doubleClickTime>500</doubleClickTime>
   <!-- in milliseconds (1000 = 1 second) -->
-  <screenEdgeWarpTime>400</screenEdgeWarpTime>
+  <screenEdgeWarpTime>0</screenEdgeWarpTime>
   <!-- Time before changing desktops when the pointer touches the edge of the
        screen while moving a window, in milliseconds (1000 = 1 second).
        Set this to 0 to disable warping -->
@@ -446,11 +470,11 @@
       <action name="Resize"><edge>bottom</edge></action>
     </mousebind>
 
-    <mousebind button="Right" action="Press">
+    <!--<mousebind button="Right" action="Press">
       <action name="Focus"/>
       <action name="Raise"/>
       <action name="ShowMenu"><menu>client-menu</menu></action>
-    </mousebind>
+    </mousebind>-->
   </context>
 
   <context name="TRCorner BRCorner TLCorner BLCorner">
