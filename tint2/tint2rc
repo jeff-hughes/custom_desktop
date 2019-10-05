@@ -60,7 +60,7 @@ border_color_pressed = #000000 100
 
 #-------------------------------------
 # Panel
-panel_items = LTFSCEE
+panel_items = LTFSCE
 panel_size = 100% 50
 panel_margin = 0 0
 panel_padding = 8 8 4
@@ -186,28 +186,6 @@ ac_disconnected_cmd = notify-send "Unplugged power"
 
 #-------------------------------------
 # Executor 1
-execp = new
-execp_command = pactl list sinks | grep '^[[:space:]]Volume:' | head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,' | awk '{ printf "V %s%", $o}'
-execp_interval = 1
-execp_has_icon = 0
-execp_cache_icon = 1
-execp_continuous = 0
-execp_markup = 1
-execp_lclick_command = sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -5%"
-execp_rclick_command = sh -c "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +5%"
-execp_mclick_command = 
-execp_uwheel_command = 
-execp_dwheel_command = 
-execp_font = SFNS Display 11
-execp_font_color = #ffffff 100
-execp_padding = 4 0
-execp_background_id = 0
-execp_centered = 1
-execp_icon_w = 0
-execp_icon_h = 0
-
-#-------------------------------------
-# Executor 2
 execp = new
 execp_command = echo "X"
 execp_interval = 0

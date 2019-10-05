@@ -13,16 +13,18 @@ script to distribute the new files. Or don't. Whatever floats your boat.
 
 ## Packages used (not including Xorg)
 
-Package  | Purpose
--------- | -------
-openbox  | Window manager
-xcompmgr | Compositor for openbox
+Package     | Purpose
+----------- | -------
+openbox     | Window manager
+xcompmgr    | Compositor for openbox
 obmenu-generator ([AUR](https://aur.archlinux.org/packages/obmenu-generator/))\* | Generate Openbox menus
-tint2    | Dock
-dolphin  | File manager
-gedit    | Text editor -- this will likely change
-feh      | To manage desktop wallpaper
-variety  | Rotating desktop wallpaper
+tint2       | Dock
+dolphin     | File manager
+gedit       | Text editor -- this will likely change
+feh         | To manage desktop wallpaper
+variety     | Rotating desktop wallpaper
+volumeicon  | System tray volume icon
+pavucontrol | PulseAudio mixer
 
 \* Note: If you are wanting your menu to include icons like my config does, you need to install the gtk2-perl package as well! It is listed as an optional dependency so it is not installed by default.
 
