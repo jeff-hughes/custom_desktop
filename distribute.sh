@@ -8,7 +8,7 @@ mkdir -pv ~/.config/openbox
 cp ${DIR}/openbox/* ~/.config/openbox/
 
 mkdir -pv ~/.config/obmenu-generator
-cp ${DIR}/obmenu-generator/schema.pl ~/.config/obmenu-generator
+cp ${DIR}/obmenu-generator/* ~/.config/obmenu-generator
 
 mkdir -pv ~/.config/tint2
 cp ${DIR}/tint2/tint2rc ~/.config/tint2/
