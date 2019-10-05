@@ -16,8 +16,9 @@ script to distribute the new files. Or don't. Whatever floats your boat.
 Package     | Purpose
 ----------- | -------
 openbox     | Window manager
-xcompmgr    | Compositor for openbox
+xcompmgr    | Compositor for Openbox
 obmenu-generator ([AUR](https://aur.archlinux.org/packages/obmenu-generator/))\* | Generate Openbox menus
+obconf      | Theme and config menu for Openbox
 tint2       | Dock
 dolphin     | File manager
 gedit       | Text editor -- this will likely change
@@ -27,6 +28,8 @@ volumeicon  | System tray volume icon
 pavucontrol | PulseAudio mixer
 
 \* Note: If you are wanting your menu to include icons like my config does, you need to install the gtk2-perl package as well! It is listed as an optional dependency so it is not installed by default.
+
+Current theme for Openbox: [Adwaita Custom Dark Retouch](https://www.box-look.org/p/1313609/) (but this will likely change)
 
 ## Other optional packages
 
