@@ -17,17 +17,23 @@ Package  | Purpose
 -------- | -------
 openbox  | Window manager
 xcompmgr | Compositor for openbox
+obmenu-generator ([AUR](https://aur.archlinux.org/packages/obmenu-generator/))\* | Generate Openbox menus
 tint2    | Dock
 dolphin  | File manager
 gedit    | Text editor -- this will likely change
 feh      | To manage desktop wallpaper
 variety  | Rotating desktop wallpaper
 
+\* Note: If you are wanting your menu to include icons like my config does, you need to install the gtk2-perl package as well! It is listed as an optional dependency so it is not installed by default.
+
 ## Other optional packages
+
+These aren't necessary, but they show up in references in menus, etc.
 
 Package        | Purpose
 -------------- | -------
 code (VS Code) | Code editor
 [extraterm](https://extraterm.org/index.html) | Terminal emulator
 vlc            | Video player
+neofetch       | Display info about your distro
 numlockx       | To turn on numlock by default
