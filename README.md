@@ -40,5 +40,7 @@ Package        | Purpose
 code (VS Code) | Code editor
 [extraterm](https://extraterm.org/index.html) | Terminal emulator
 vlc            | Video player
+[ulauncher](https://ulauncher.io/) | Application launcher
+ttf-ubuntu-font-family | Using Ubuntu font for clock on Variety desktop
 neofetch       | Display info about your distro
 numlockx       | To turn on numlock by default
