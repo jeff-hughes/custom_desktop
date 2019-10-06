@@ -41,6 +41,13 @@ code (VS Code) | Code editor
 [extraterm](https://extraterm.org/index.html) | Terminal emulator
 vlc            | Video player
 [ulauncher](https://ulauncher.io/) | Application launcher
-ttf-ubuntu-font-family | Using Ubuntu font for clock on Variety desktop
+ttf-ubuntu-font-family | A particularly nice Ubuntu font I like
 neofetch       | Display info about your distro
 numlockx       | To turn on numlock by default
+
+## Menu-based configuration options
+
+- Set ulauncher theme to "Elementary Dark" and hotkey to "Super L" (i.e., the Windows key)
+- Installed Adwaita Custom Dark Retouch theme in obconf; note that this overwrites your Openbox rc.xml file (grr!), but appears to be the only way to install .obt files; so be sure to copy ~/.config/openbox/rc.xml back to this git repository so that you don't overwrite your theme if you make further changes
+- Set Variety to show a clock, using Ubuntu Condensed Regular 70pt for the clock and Ubuntu Condensed Regular 30pt for the date
+- Set volumeicon to run pavucontrol as the external mixer (requires pulseaudio package)
