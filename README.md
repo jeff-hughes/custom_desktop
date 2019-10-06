@@ -29,7 +29,7 @@ pavucontrol | PulseAudio mixer
 
 \* Note: If you are wanting your menu to include icons like my config does, you need to install the gtk2-perl package as well! It is listed as an optional dependency so it is not installed by default.
 
-Current theme for Openbox: [Adwaita Custom Dark Retouch](https://www.box-look.org/p/1313609/) (but this will likely change)
+Current theme for Openbox: [Arrondie-Froly](https://github.com/addy-dclxvi/openbox-theme-collections)
 
 ## Other optional packages
 
@@ -48,6 +48,6 @@ numlockx       | To turn on numlock by default
 ## Menu-based configuration options
 
 - Set ulauncher theme to "Elementary Dark" and hotkey to "Super L" (i.e., the Windows key)
-- Installed Adwaita Custom Dark Retouch theme in obconf; note that this overwrites your Openbox rc.xml file (grr!), but appears to be the only way to install .obt files; so be sure to copy ~/.config/openbox/rc.xml back to this git repository so that you don't overwrite your theme if you make further changes
+- Installed Arrondie Froly theme in obconf; note that this overwrites your Openbox rc.xml file (grr!), but appears to be the only way to install .obt files; so be sure to copy ~/.config/openbox/rc.xml back to this git repository so that you don't overwrite your theme if you make further changes
 - Set Variety to show a clock, using Ubuntu Condensed Regular 70pt for the clock and Ubuntu Condensed Regular 30pt for the date
 - Set volumeicon to run pavucontrol as the external mixer (requires pulseaudio package)
